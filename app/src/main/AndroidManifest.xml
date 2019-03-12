@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.todasv">
+<uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".opciones_PDS"></activity>
+        <activity android:name=".perfil_PDS_no_editable" />
+        <activity android:name=".seleccionar_trabajador" />
+        <activity android:name=".describir_problema" />
+        <activity android:name=".tipo_de_arreglo" />
+        <activity android:name=".Registro_Cliente" />
+        <activity android:name=".Registro_PDS" />
+        <activity android:name=".Regis_PDS_Cliente" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

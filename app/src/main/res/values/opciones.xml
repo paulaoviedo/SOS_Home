@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Opciones">
+        <item>Cerrajero</item>
+        <item>Carpintero</item>
+        <item>Electrisista</item>
+        <item>Opcion 4</item>
+        <item>Opcion 5</item>
+
+
+    </string-array>
+
+</resources>
