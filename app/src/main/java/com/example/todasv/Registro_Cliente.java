@@ -119,4 +119,10 @@ EditText nombre, apellido,cc,fecha,tel,correo,pass;
 
 
     }
+
+
+    public  void  WriteJson (View view){
+    // IOHelper.writeTofile(this,"RegitroPersona.txt" ,);
+
+    }
 }
